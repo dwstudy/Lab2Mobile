@@ -1,7 +1,10 @@
 <resources>
-    <string name="app_name">Lab2</string>
+    <string name="app_name">Gallery</string>
     <string name="next">Next</string>
     <string name="previous">Previous</string>
+
+    <string name="click_prev">Click to go to the previous image</string>
+    <string name="click_next">Click to go to the next image</string>
 
     <string name="artwork_1_title">St. Michael Cathedral</string>
     <string name="artwork_1_author">Vincent van Gogh</string>

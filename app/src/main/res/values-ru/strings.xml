@@ -1,7 +1,10 @@
 <resources>
-    <string name="app_name">Лаб2</string>
+    <string name="app_name">Галерея</string>
     <string name="next">Следующий</string>
     <string name="previous">Предыдущий</string>
+
+    <string name="click_prev">Нажать для перехода к предыдущей картинке</string>
+    <string name="click_next">Нажать для перехода к следующей картинке</string>
 
     <string name="artwork_1_title">Свято-Михайловский собор</string>
     <string name="artwork_1_author">Vincent van Gogh</string>
