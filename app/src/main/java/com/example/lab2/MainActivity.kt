@@ -8,15 +8,15 @@ import androidx.appcompat.app.AppCompatActivity
 
 class MainActivity : AppCompatActivity() {
 
-    // Ключ для сохранения состояния
+    // Ключ для сохранения состояния изображения
     private val KEY_INDEX = "current_artwork_index"
 
     private val gallery = listOf(
-        Artwork(R.drawable.img1, R.string.artwork_1_title, R.string.artwork_1_author),
-        Artwork(R.drawable.img2, R.string.artwork_2_title, R.string.artwork_2_author),
-        Artwork(R.drawable.img3, R.string.artwork_3_title, R.string.artwork_3_author),
-        Artwork(R.drawable.img4, R.string.artwork_4_title, R.string.artwork_4_author),
-        Artwork(R.drawable.img5, R.string.artwork_5_title, R.string.artwork_5_author),
+        Artwork(R.drawable.img1, R.string.artwork_1_title, R.string.artwork_1_author, descriptionResId = R.string.artwork_1_description),
+        Artwork(R.drawable.img2, R.string.artwork_2_title, R.string.artwork_2_author, descriptionResId = R.string.artwork_2_description),
+        Artwork(R.drawable.img3, R.string.artwork_3_title, R.string.artwork_3_author, descriptionResId = R.string.artwork_3_description),
+        Artwork(R.drawable.img4, R.string.artwork_4_title, R.string.artwork_4_author, descriptionResId = R.string.artwork_4_description),
+        Artwork(R.drawable.img5, R.string.artwork_5_title, R.string.artwork_5_author, descriptionResId = R.string.artwork_5_description),
     )
 
     private var currentIndex = 0
@@ -65,7 +65,8 @@ class MainActivity : AppCompatActivity() {
         titleText.setText(currentArtwork.titleResId)
         authorText.setText(currentArtwork.authorResId)
 
-        imageView.contentDescription = getString(currentArtwork.titleResId)
+        //автоматически проставляем описание картинки более подробным описанием из файлов ресурсов
+        imageView.contentDescription = getString(currentArtwork.descriptionResId)
 
         btnPrev.isEnabled = currentIndex > 0
         btnNext.isEnabled = currentIndex < gallery.size - 1
