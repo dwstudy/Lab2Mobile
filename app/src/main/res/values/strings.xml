@@ -1,20 +1,29 @@
 <resources>
-    <string name="app_name">Lab2</string>
+    <string name="app_name">Art Space</string>
     <string name="next">Next</string>
     <string name="previous">Previous</string>
 
+    <string name="click_prev">Click to go to the previous image</string>
+    <string name="click_next">Click to go to the next image</string>
+
     <string name="artwork_1_title">St. Michael Cathedral</string>
-    <string name="artwork_1_author">Vincent van Gogh</string>
+    <string name="artwork_1_author">Richard Bartz</string>
+    <string name="artwork_1_description">The Holy Michael Cathedral, or the Church of the Archangel Michael, is the main Orthodox shrine in Izhevsk and the cathedral of the Izhevsk Diocese. The church is located on Krasnaya (Mikhailovskaya) Square, one of the highest points in the city. It can be seen from almost any part of Izhevsk, as it stands at a height of 67 meters.</string>
 
     <string name="artwork_2_title">Church of the Kazan Icon of the Mother of God</string>
-    <string name="artwork_2_author">Vincent van Gogh</string>
+    <string name="artwork_2_author">Leonid Nikitin</string>
+    <string name="artwork_2_description">The Church of the Kazan Icon of the Mother of God is an Orthodox church in Izhevsk, the base of the Diocesan Department of Education and Religious Catechesis of the Izhevsk and Udmurt Diocese.</string>
 
     <string name="artwork_3_title">Kuzebay Gerd National Museum</string>
-    <string name="artwork_3_author">Vincent van Gogh</string>
+    <string name="artwork_3_author">Anatoly Anikin</string>
+    <string name="artwork_3_description">The museum was founded in November 1920 in accordance with the resolution of the Executive Committee of the Izhevsk City Council as the Izhevsk Museum of Local History. The founder and first director of the museum was A. M. Filippov, a veterinarian who worked part-time at the museum.</string>
 
     <string name="artwork_4_title">Friendship of Peoples Monument</string>
-    <string name="artwork_4_author">Vincent van Gogh</string>
+    <string name="artwork_4_author">A.N. Burganov</string>
+    <string name="artwork_4_description">Friendship of Peoples (also known as Forever with Russia and popularly referred to as Kulakovas Skis) is a monument in Izhevsk dedicated to the 400th anniversary of Udmurtia incorporation into Russia.</string>
 
     <string name="artwork_5_title">Alexander Nevsky Cathedral</string>
-    <string name="artwork_5_author">Vincent van Gogh</string>
+    <string name="artwork_5_author">V.E. Bishevsky</string>
+    <string name="artwork_5_description">The Alexander Nevsky Cathedral is an Orthodox church in Izhevsk. It belongs to the Izhevsk Diocese of the Russian Orthodox Church. In 1994-2017, it was the cathedral of the diocese.The cathedral was built in 1823, modeled after the St. Andrews Cathedral in Kronstadt (designed by architect Andreyan Zakharov). It became an important part of the classical architecture of the Vyatka Province. It was originally planned as the central church of the Izhevsk factory. In 1929, the church was looted and closed, and later served as a cinema called "Koloss". In 1990, with the active participation of Bishop Palladius (who was the rector from 1990 to 1992), it was returned to the Russian Orthodox Church.</string>
+
 </resources>
