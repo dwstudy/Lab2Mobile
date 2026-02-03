@@ -12,11 +12,35 @@ class MainActivity : AppCompatActivity() {
     private val KEY_INDEX = "current_artwork_index"
 
     private val gallery = listOf(
-        Artwork(R.drawable.img1, R.string.artwork_1_title, R.string.artwork_1_author, descriptionResId = R.string.artwork_1_description),
-        Artwork(R.drawable.img2, R.string.artwork_2_title, R.string.artwork_2_author, descriptionResId = R.string.artwork_2_description),
-        Artwork(R.drawable.img3, R.string.artwork_3_title, R.string.artwork_3_author, descriptionResId = R.string.artwork_3_description),
-        Artwork(R.drawable.img4, R.string.artwork_4_title, R.string.artwork_4_author, descriptionResId = R.string.artwork_4_description),
-        Artwork(R.drawable.img5, R.string.artwork_5_title, R.string.artwork_5_author, descriptionResId = R.string.artwork_5_description),
+        Artwork(
+            R.drawable.img1,
+            R.string.artwork_1_title,
+            R.string.artwork_1_author,
+            descriptionResId = R.string.artwork_1_description),
+
+        Artwork(
+            R.drawable.img2,
+            R.string.artwork_2_title,
+            R.string.artwork_2_author,
+            R.string.artwork_2_description),
+
+        Artwork(
+            R.drawable.img3,
+            R.string.artwork_3_title,
+            R.string.artwork_3_author,
+            R.string.artwork_3_description),
+
+        Artwork(
+            R.drawable.img4,
+            R.string.artwork_4_title,
+            R.string.artwork_4_author,
+            R.string.artwork_4_description),
+
+        Artwork(
+            R.drawable.img5,
+            R.string.artwork_5_title,
+            R.string.artwork_5_author,
+            R.string.artwork_5_description),
     )
 
     private var currentIndex = 0
