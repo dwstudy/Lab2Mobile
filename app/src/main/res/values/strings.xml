@@ -7,17 +7,17 @@
     <string name="click_next">Click to go to the next image</string>
 
     <string name="artwork_1_title">St. Michael Cathedral</string>
-    <string name="artwork_1_author">Vincent van Gogh</string>
+    <string name="artwork_1_author">Richard Bartz</string>
 
     <string name="artwork_2_title">Church of the Kazan Icon of the Mother of God</string>
-    <string name="artwork_2_author">Vincent van Gogh</string>
+    <string name="artwork_2_author">Leonid Nikitin</string>
 
     <string name="artwork_3_title">Kuzebay Gerd National Museum</string>
-    <string name="artwork_3_author">Vincent van Gogh</string>
+    <string name="artwork_3_author">Anatoly Anikin</string>
 
     <string name="artwork_4_title">Friendship of Peoples Monument</string>
-    <string name="artwork_4_author">Vincent van Gogh</string>
+    <string name="artwork_4_author">A.N. Burganov</string>
 
     <string name="artwork_5_title">Alexander Nevsky Cathedral</string>
-    <string name="artwork_5_author">Vincent van Gogh</string>
+    <string name="artwork_5_author">V.E. Bishevsky</string>
 </resources>

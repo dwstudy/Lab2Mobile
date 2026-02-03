@@ -7,17 +7,17 @@
     <string name="click_next">Нажать для перехода к следующей картинке</string>
 
     <string name="artwork_1_title">Свято-Михайловский собор</string>
-    <string name="artwork_1_author">Vincent van Gogh</string>
+    <string name="artwork_1_author">Ричард Барц</string>
 
     <string name="artwork_2_title">Храм Казанской иконы Божией матери</string>
-    <string name="artwork_2_author">Vincent van Gogh</string>
+    <string name="artwork_2_author">Леонид Никитин</string>
 
     <string name="artwork_3_title">Национальный музей имени Кузебая Герда</string>
-    <string name="artwork_3_author">Vincent van Gogh</string>
+    <string name="artwork_3_author">Анатолий Аникин</string>
 
     <string name="artwork_4_title">Монумент «Дружба народов»</string>
-    <string name="artwork_4_author">Vincent van Gogh</string>
+    <string name="artwork_4_author">А. Н. Бурганов</string>
 
     <string name="artwork_5_title">Александро-Невский собор</string>
-    <string name="artwork_5_author">Vincent van Gogh</string>
+    <string name="artwork_5_author">В.Е. Бишевский</string>
 </resources>
